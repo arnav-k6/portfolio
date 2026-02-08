@@ -1,22 +1,12 @@
 # Arnav Kapadia - Portfolio Website
 
-A modern, responsive personal portfolio website built with React and Vite, showcasing my projects, skills, and experience in Electrical Engineering.
-
-## Features
-
-- **Smooth Scrolling Navigation** - Seamless navigation between sections
-- **Interactive Animations** - Engaging fade-in animations and hover effects
-- **Responsive Design** - Works perfectly on all devices
-- **Project Filtering** - Filter projects by category (Hardware, Embedded, ML/AI, Web)
-- **Skills Visualization** - Animated skill bars showing proficiency levels
-- **Contact Form** - Easy way to get in touch
-- **Modern Design** - Clean, professional aesthetic with distinctive styling
+My personal portfolio webpage showcasing my projects, skills, and experience in Electrical Engineering.
 
 ## Tech Stack
 
 - **React 18** - UI framework
 - **Vite** - Build tool and dev server
-- **CSS3** - Styling with custom properties and animations
+- **HTML/CSS3/JS** - Styling with custom properties and animations
 - **Google Fonts** - Space Mono and Crimson Pro fonts
 
 ## Getting Started
@@ -117,68 +107,6 @@ Update your personal information in the respective component files:
 - **Projects.jsx** - Project details, descriptions, tech stack
 - **Skills.jsx** - Skills and proficiency levels
 - **Contact.jsx** - Contact information and social links
-
-### Fonts
-
-The website uses:
-- **Space Mono** - For headings and monospace text
-- **Crimson Pro** - For body text
-
-To change fonts, update the Google Fonts import in `App.css`.
-
-## Deployment
-
-### Vercel (Recommended)
-
-1. Push your code to GitHub
-2. Import the repository in Vercel
-3. Vercel will auto-detect Vite and deploy
-
-### Netlify
-
-1. Build the project: `npm run build`
-2. Drag and drop the `dist` folder to Netlify
-3. Or connect your Git repository for automatic deployments
-
-### GitHub Pages
-
-1. Install gh-pages: `npm install --save-dev gh-pages`
-2. Add to `package.json`:
-```json
-{
-  "homepage": "https://yourusername.github.io/portfolio",
-  "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
-  }
-}
-```
-3. Update `vite.config.js`:
-```js
-export default defineConfig({
-  plugins: [react()],
-  base: '/portfolio/'  // your repo name
-})
-```
-4. Run: `npm run deploy`
-
-## Performance
-
-- Uses modern CSS for animations (hardware accelerated)
-- Lazy loading for smooth scroll
-- Optimized images and assets
-- Minimal dependencies for fast load times
-
-## Browser Support
-
-- Chrome/Edge (latest)
-- Firefox (latest)
-- Safari (latest)
-- Mobile browsers (iOS Safari, Chrome Android)
-
-## License
-
-This project is open source and available for personal use.
 
 ## Contact
 
