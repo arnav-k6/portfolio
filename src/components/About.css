@@ -1,0 +1,197 @@
+.about {
+  padding: 6rem 0;
+}
+
+.about-content {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 4rem;
+  margin-top: 2rem;
+}
+
+.about-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.about-intro {
+  font-size: 1.3rem;
+  color: var(--text-primary);
+  line-height: 1.8;
+}
+
+.about-intro strong {
+  color: var(--accent-green);
+  font-weight: 600;
+}
+
+.about-interests {
+  margin-top: 2rem;
+}
+
+.about-interests h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: var(--text-primary);
+}
+
+.interest-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.interest-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 1.5rem 1rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.interest-item:hover {
+  background: var(--bg-card-hover);
+  border-color: var(--accent-green);
+  transform: translateY(-4px);
+}
+
+.interest-icon {
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+.interest-label {
+  font-family: 'Space Mono', monospace;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  font-weight: 600;
+}
+
+.about-quote {
+  margin-top: 2rem;
+  padding: 2rem;
+  background: linear-gradient(135deg, rgba(61, 214, 140, 0.1), rgba(76, 154, 255, 0.1));
+  border-left: 4px solid var(--accent-green);
+  border-radius: 8px;
+  position: relative;
+}
+
+.quote-icon {
+  color: var(--accent-green);
+  opacity: 0.5;
+  margin-bottom: 0.5rem;
+}
+
+.about-quote p {
+  font-size: 1.2rem;
+  font-style: italic;
+  color: var(--text-primary);
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Sidebar */
+.about-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.about-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: 12px;
+  padding: 1.75rem;
+  transition: all 0.3s ease;
+}
+
+.about-card:hover {
+  border-color: var(--accent-green);
+  transform: translateX(4px);
+}
+
+.about-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 1.25rem;
+  color: var(--text-primary);
+}
+
+.quick-facts ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.quick-facts li {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+}
+
+.fact-icon {
+  font-size: 1.25rem;
+  min-width: 24px;
+}
+
+.learning-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.learning-tag {
+  font-family: 'Space Mono', monospace;
+  padding: 0.5rem 1rem;
+  background: rgba(61, 214, 140, 0.1);
+  color: var(--accent-green);
+  border: 1px solid rgba(61, 214, 140, 0.3);
+  border-radius: 6px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.learning-tag:hover {
+  background: rgba(61, 214, 140, 0.2);
+  border-color: var(--accent-green);
+  transform: translateY(-2px);
+}
+
+.fun-fact p {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+@media (max-width: 1024px) {
+  .about-content {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .interest-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .interest-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about-quote {
+    padding: 1.5rem;
+  }
+
+  .about-quote p {
+    font-size: 1.1rem;
+  }
+}
