@@ -5,27 +5,27 @@ const About = () => {
   return (
     <section id="about" className="about">
       <h2 className="section-title">About Me</h2>
-      
+
       <div className="about-content">
         <div className="about-text">
           <p className="about-intro">
-            I'm a second-year <strong>Electrical Engineering student at UBC</strong>, 
-            fascinated by the intersection of hardware and software. Whether it's designing 
-            a RISC-V processor in SystemVerilog or building computer vision pipelines with 
+            I'm a second-year <strong>Electrical Engineering student at UBC</strong>,
+            fascinated by the intersection of hardware and software. Whether it's designing
+            a RISC-V processor in SystemVerilog or building computer vision pipelines with
             PyTorch, I love creating systems that actually work.
           </p>
 
           <p>
-            Currently, I'm part of the <strong>UBC Agrobot Design Team</strong>, where I'm 
-            developing ESP32 firmware for real-time soil sensing and building React dashboards 
-            to visualize crop health data. I'm also constantly tinkering with embedded systems 
+            Currently, I'm part of the <strong>UBC Agrobot Design Team</strong>, where I'm
+            developing ESP32 firmware for real-time soil sensing and building React dashboards
+            to visualize crop health data. I'm also constantly tinkering with embedded systems
             projects in my spare time.
           </p>
 
           <p>
-            My interests span <strong>embedded systems</strong>, <strong>FPGA design</strong>, 
-            <strong>computer vision</strong>, and <strong>machine learning</strong>. 
-            I'm particularly drawn to projects that require both low-level hardware understanding 
+            My interests span <strong>embedded systems</strong>, <strong>FPGA design</strong>,
+            <strong>computer vision</strong>, and <strong>machine learning</strong>.
+            I'm particularly drawn to projects that require both low-level hardware understanding
             and high-level software architecture.
           </p>
 
@@ -61,10 +61,10 @@ const About = () => {
 
           <div className="about-quote">
             <svg className="quote-icon" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-              <path d="M6 17h3l2-4V7H5v6h3zm8 0h3l2-4V7h-6v6h3z"/>
+              <path d="M6 17h3l2-4V7H5v6h3zm8 0h3l2-4V7h-6v6h3z" />
             </svg>
             <p>
-              I believe the best solutions come from understanding both the 
+              I believe the best solutions come from understanding both the
               silicon and the software that runs on it.
             </p>
           </div>
@@ -100,18 +100,18 @@ const About = () => {
           <div className="about-card currently-learning">
             <h3>Currently Exploring</h3>
             <div className="learning-tags">
-              <span className="learning-tag">Edge AI</span>
+              <span className="learning-tag">Embedded Architecture</span>
               <span className="learning-tag">FPGA Acceleration</span>
-              <span className="learning-tag">Real-Time Systems</span>
-              <span className="learning-tag">Computer Architecture</span>
+              <span className="learning-tag">Fullstack Development</span>
+              <span className="learning-tag">Convolutional Neural Networks</span>
             </div>
           </div>
 
           <div className="about-card fun-fact">
             <h3>Beyond Engineering</h3>
             <p>
-              I taught chess to 20+ students for 6 years and organized tournaments 
-              with 150+ participants. Problem-solving on the board translates well 
+              I taught chess to 20+ students for 6 years and organized tournaments
+              with 150+ participants. Problem-solving on the board translates well
               to debugging code! ♟️
             </p>
           </div>
